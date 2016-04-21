@@ -1,0 +1,13 @@
+SERVER_ADDR     0.0.0.0:50059
+CLIENT_ADDR     10.101.72.165:50059
+AFP_DIR         afp
+DAT_DIR         runlog
+WRK_DIR         wrk
+ORG_DIR         org
+DST_DIR         dst
+LOG_DIR         log
+SER_MOVE_ADDR   0.0.0.0:51112
+SER_CONF_ADDR   0.0.0.0:51113
+SER_SYNC_ADDR   0.0.0.0:51114
+SUB_LIST		/home/xiwen.yxw/workspace/finger_move/sub_list
+GROUP_LIST		/home/xiwen.yxw/workspace/finger_move/group_list

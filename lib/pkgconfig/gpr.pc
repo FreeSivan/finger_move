@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: gRPC Portable Runtime
+Description: gRPC Portable Runtime
+Version: 0.11.0.0
+Cflags: -I${includedir} -pthread
+Requires.private: 
+Libs: -L${libdir} -lgpr
+Libs.private: -lpthread -lrt
